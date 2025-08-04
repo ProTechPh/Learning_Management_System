@@ -1,0 +1,4 @@
+[build]
+base = "my-app"
+publish = "my-app/dist"
+command = "npm run build"
