@@ -16,7 +16,6 @@ import {
   LucideIcon,
   LogOut,
   Settings,
-  Store,
   Users
 } from 'lucide-react';
 
@@ -107,7 +106,6 @@ const Sidebar = ({ activeTab, setActiveTab }: SidebarProps) => {
     { icon: Database, text: 'Data Analytics', key: 'data' },
     { icon: ClipboardList, text: 'Surveys & Forms', key: 'surveys' },
     { icon: Library, text: 'Resource Library', key: 'library' },
-    { icon: Store, text: 'Marketplace', key: 'market' },
     { icon: Settings, text: 'System Settings', key: 'settings' }
   ];
 

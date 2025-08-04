@@ -8,7 +8,7 @@ import UserManagement from './Components/UserManagement';
 import DataAnalytics from './Components/DataAnalytics';
 import SurveysAndForms from './Components/SurveysAndForms';
 import ResourceLibrary from './Components/ResourceLibrary';
-import Marketplace from './Components/Marketplace';
+
 import SystemSettings from './Components/SystemSettings';
 import { chartData, defaultNotifications, pieData, recentUsers } from './utils/data';
 import theme from './theme';
@@ -38,8 +38,7 @@ function App() {
         
         {activeTab === 'library' && <ResourceLibrary />}
         
-        {activeTab === 'market' && <Marketplace />}
-        
+
         {activeTab === 'settings' && <SystemSettings />}
         
         <Footer />
